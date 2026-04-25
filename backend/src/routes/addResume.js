@@ -1,6 +1,6 @@
 require("dotenv").config();
 const express=require("express");
-const Job = require("../models/Resume");
+const Job = require("../models/resume");
 const upload = require("../config/multer");
 const cloudinary = require("../utils/cloudinary");
 const router=express.Router();
